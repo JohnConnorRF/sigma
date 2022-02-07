@@ -6,6 +6,7 @@ logsources:
         product: windows
         conditions:
             EventID: 1
+            LogName: 'Microsoft-Windows-Sysmon/Operational'
         rewrite:
             product: windows
             service: sysmon
